@@ -1,0 +1,228 @@
+%-------------------------
+% Resume in Latex
+% Author : Jojo Joseph
+% Based off of: https://github.com/TheJojoJoseph/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+% \end{tabular*}
+
+\begin{center}
+    \textbf{\Huge \scshape Jojo Joseph } \\ \vspace{1pt}
+    \small +91944-6300-967 $|$ \href{mailto:JojoJoseph11@gmail.com}{\underline{m200612@rajagiri.edu.in}} $|$ 
+    \href{https://www.linkedin.com/in/jojojoseph/}{\underline{linkedin.com/in/jojojoseph/}} $|$
+    \href{https://www.dynamiclithium.com/jojojoseph}{\underline{dynamiclithium.com/jojojoseph}}
+\end{center}
+
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+  \resumeSubheading
+      {Rajagiri School of Engineering and Technology }{APJ Abdul Kalam Technological University }
+      {Masters of Technology in VLSI and Embedded system —  }{Jun. 2020 -- present}
+    \resumeSubheading
+      {Rajagiri School of Engineering and Technology }{APJ Abdul Kalam Technological University }
+      {Bachelors of Technology in Electrical and Electronics Engg. — CGPA 6.9 }{Jun. 2015 -- May 2019}
+       
+    \resumeSubheading
+      {Model Technical Higher Secondary }{IHRD }
+      {Higher Secondary,2015 GPA 9.1}{Aug. 2013 -- May 2015}
+      \resumeSubheading
+      { Rajagiri Higher Secondary School }{Kalamassery }
+      {Secondary Diplomas and Certificate - GPA 9.8}{Aug. 2001 -- May 2013}
+     
+  \resumeSubHeadingListEnd
+
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Embedded and Hardware Engineer : Full-stack developer }{Sept 2020 -- Feb 2020}
+      {MEPITS INFO TECH Private Limited}{Kochi, IN}
+      \resumeItemListStart
+        \resumeItem{Developed and maintained Online LMS(learning management systems) and e-Commerce. www.superkitz.com.}
+        \resumeItem{ Lead Engineerin various IoT CE products and Industrial Automation Projects under MEPITS}
+      \resumeItemListEnd
+      
+% -----------Multiple Positions Heading-----------
+%    \resumeSubSubheading
+%     {Software Engineer I}{Oct 2014 - Sep 2016}
+%     \resumeItemListStart
+%        \resumeItem{Apache Beam}
+%          {Apache Beam is a unified model for defining both batch and streaming data-parallel processing pipelines}
+%     \resumeItemListEnd
+%    \resumeSubHeadingListEnd
+%-------------------------------------------
+
+    \resumeSubheading
+      {Student Intern Electrical Eng.}{Jun. 2017 -- July 2017}
+      {Henry Farad Private Limited(Subsidiary of GRACETEC)}{Kochi, IN}
+      \resumeItemListStart
+        \resumeItem{Worked as a Student Intern with their vps Lakeshore Hospital Project.}
+        \resumeItem{Featured installation and charging of two 2000 KVA transformer to newly constructed block}
+        \resumeItem{ complete electrical and network wiring of newly constructed block of the hospital.}
+    \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+
+%-----------PROJECTS-----------
+\section{Projects}
+    \resumeSubHeadingListStart
+    
+     \resumeProjectHeading
+          {\textbf{Optimizing the Convolution Operation to Accelerate DNN on FPGA} $|$ \emph{ML, CNN, Tensorflow, Python, Verilog }}{Feb 2021 -- April 2021}
+          \resumeItemListStart
+            \resumeItem{Developed a IP block design of optimized MAC block in Vivado (Verilog)}
+            \resumeItem{Literature Survey on Convolution Operation on HLS(High Level Synthesis) in Vivado HLS}
+            \resumeItem{Various CNN Accelerators and analysed and their performance quantified }
+            \resumeItem{Documentation www.rsetcnnfpga.ml}
+          \resumeItemListEnd
+          
+          
+           \resumeProjectHeading
+          {\textbf{COVID-19: Face Mask Detector with OpenCV, Keras/TensorFlow, and Deep Learning} $|$ \emph{ML,Keras/TensorFlow, Python, OpenCV }}{Feb 2021 -- March 2021}
+          \resumeItemListStart
+            \resumeItem{surveillance task performer with ML based detection software running on embedded platform: Raspberry pi }
+            \resumeItem{ Detects the face from the image correctly and then identifies if it has a mask on it or not}
+            \resumeItem{Model attains accuracy up to 95.77 \% and 94.58 \% respectively on two different datasets. }
+            \resumeItem{ML,Keras/TensorFlow, Python, OpenCV }
+          \resumeItemListEnd
+          
+      \resumeProjectHeading
+          {\textbf{SMART PEPPER} $|$ \emph{Python,RaspberryPi, ESP8266,STM32, NodeRED, C++, Cloud, Firebase}}{June 2018 -- 2019}
+          \resumeItemListStart
+          \resumeItem{Smart Metering System and Domestic Task Scheduling Under Dynamic Pricing Using the Multiple Knapsack Method}
+            
+            \resumeItem{optimally scheduling a set of residential appliances under day-ahead variable peak pricing in order to minimize the customer’s energy bill (and also, simultaneously spread out energy usage)}
+            \resumeItem{Developed a full-stack web application using with ThinkSpeak MQTT API with Google FireBase}
+            \resumeItem{multiple knapsack problem – which enables cheap and efficient solutions to the scheduling problem. (build on Raspberry Pi, STM32 and ESP8266)}
+            \resumeItem{Documentation www.Smartpepper.ga}
+          \resumeItemListEnd
+     
+    \resumeSubHeadingListEnd
+
+
+
+%
+%-----------PROGRAMMING SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages}{: Verilog , Python, C/C++, HTML/CSS, SQL} \\
+     \textbf{Frameworks}{: TensorFlow, WordPress, Google Firebase, BlockChain} \\
+     \textbf{Developer Tools}{ Vivado, Vivado HLS , MathLab, Google Cloud Platform, VS Code , PyCharm, Proteus} \\
+     \textbf{Libraries}{: OpenCV, MQTT , Keras, NumPy, Matplotlib} \\
+     \textbf{Hardware Platform}{: STM32, ESP8266/32 , RaspberryPI , Arduino}
+    }}
+ \end{itemize}
+
+
+%-------------------------------------------
+\end{document}
